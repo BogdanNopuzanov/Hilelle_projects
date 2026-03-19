@@ -33,13 +33,5 @@ def main7():
     print((user_input1 % 1000) // 100)
     print(user_input1 % 100 // 10)
     print(user_input1%10)
-def main8():
-    user_input1=int(input('chetireznachne chislo:'))
-    print(user_input1 // 1000)
-    print((user_input1 % 1000) // 100)
-    print(user_input1 % 100 // 10)
-    print(user_input1%10)
-
-
 
 main7()
