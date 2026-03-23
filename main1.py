@@ -1,6 +1,5 @@
 
 # Програма має виконувати прості математичні дії (+, -, *, /). Користувачеві пропонується почерзі ввести числа та дію над цими числами, а програма, виходячи з дії, обчислює та друкує результат.
-#
 # Зробити перевірку на те, що при діленні дільник не дорівнює 0!
 pershe_chislo=float(input('Pershe chislo: '))
 deistvie=str(input('vvedite + - * /: '))
@@ -19,6 +18,4 @@ elif deistvie=='/':
     else:
         rezultat= pershe_chislo/druge_chislo
 
-
-
-print(pershe_chislo,deistvie,druge_chislo,rezultat)
+print('otvet :',rezultat)
