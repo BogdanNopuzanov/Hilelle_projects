@@ -15,7 +15,7 @@ elif deistvie=='*':
 elif deistvie=='/':
     if druge_chislo==0:
         rezultat= 0
-        print('ne delim na 0')
+        print('ne delim naa 0')
     else:
         rezultat= pershe_chislo/druge_chislo
 
