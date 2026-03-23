@@ -20,4 +20,5 @@ elif deistvie=='/':
         rezultat= pershe_chislo/druge_chislo
 
 
+
 print(pershe_chislo,deistvie,druge_chislo,rezultat)
