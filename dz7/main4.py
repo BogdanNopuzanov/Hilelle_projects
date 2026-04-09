@@ -1,4 +1,5 @@
-def common_elements():
+def \
+        common_elements():
 
     list_3 = [i for i in range(100) if i % 3 == 0]
     list_5 = [i for i in range(100) if i % 5 == 0]

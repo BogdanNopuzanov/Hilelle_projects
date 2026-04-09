@@ -4,6 +4,7 @@ SECONDS_IN_DAY = 24 * 60 * 60
 SECONDS_IN_HOUR = 60 * 60
 SECONDS_IN_MINUTE = 60
 
+
 days, remainder = divmod(seconds_input, SECONDS_IN_DAY)
 hours, remainder = divmod(remainder, SECONDS_IN_HOUR)
 minutes, seconds = divmod(remainder, SECONDS_IN_MINUTE)

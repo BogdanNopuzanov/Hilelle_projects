@@ -9,6 +9,7 @@ def second_index(text, some_str):
     return second if second != -1 else None
 
 
+
 # Перевірки
 assert second_index("sims", "s") == 3, 'Test1'
 assert second_index("find the river", "e") == 12, 'Test2'

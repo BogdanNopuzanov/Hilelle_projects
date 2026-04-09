@@ -1,4 +1,5 @@
 import string
+
 input_data = input()
 start_char, end_char = input_data.split('-')
 letters = string.ascii_letters
