@@ -1,6 +1,5 @@
 def second_index(text, some_str):
-    # 1. Шукаємо індекс першого входження first = text.find(some_str)
-
+   first = text.find(some_str)
     if first == -1:
         return None
 
