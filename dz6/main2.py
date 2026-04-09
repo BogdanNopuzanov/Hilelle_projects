@@ -19,5 +19,4 @@ else:
     day_word = "днів"
 time_str = f"{str(hours).zfill(2)}:{str(minutes).zfill(2)}:{str(seconds).zfill(2)}"
 
-# Итоговый вывод
 print(f"{days} {day_word}, {time_str}")

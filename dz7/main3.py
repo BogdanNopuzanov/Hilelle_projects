@@ -1,6 +1,5 @@
 def second_index(text, some_str):
-    # 1. Шукаємо індекс першого входження
-    first = text.find(some_str)
+    # 1. Шукаємо індекс першого входження first = text.find(some_str)
 
     if first == -1:
         return None
@@ -10,7 +9,6 @@ def second_index(text, some_str):
 
 
 
-# Перевірки
 assert second_index("sims", "s") == 3, 'Test1'
 assert second_index("find the river", "e") == 12, 'Test2'
 assert second_index("hi", "h") is None, 'Test3'
